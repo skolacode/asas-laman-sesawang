@@ -45,6 +45,7 @@
       color: #886e6e;
     }
     .img-list {
+      display: flex;
       width: 100%;
       overflow-x: auto;
       white-space: nowrap;
@@ -261,15 +262,28 @@
       <!-- some random images -->
       <section id="random">
         <h1>Some image of me</h1>
-        <div class="img-list">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
-          <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" width="200">
+
+        <div class="img-list">          
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" height="270">
+            <div class="card-body" style="white-space: normal;">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#">click here</a> </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" height="270">
+            <div class="card-body" style="white-space: normal;">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://plus.unsplash.com/premium_photo-1663051160162-e004fc97891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=758&q=80" alt="some-random-img" height="270">
+            <div class="card-body" style="white-space: normal;">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
         </div>
       </section>
     
